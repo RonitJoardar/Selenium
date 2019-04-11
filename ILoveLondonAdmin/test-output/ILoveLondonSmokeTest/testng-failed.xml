@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ILoveLondonSmokeTest]">
+  <listeners>
+    <listener class-name="com.ill.admin.Listener.Listeners"/>
+    <listener class-name="com.ill.admin.Listener.ExtentReporterNG"/>
+  </listeners>
+  <test name="SmokeTest(failed)">
+    <classes>
+      <class name="com.ill.admin.TestScript.TC1_Login">
+        <methods>
+          <include name="loginWithCorrectCredentials" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.ill.admin.TestScript.TC1_Login -->
+      <class name="com.ill.admin.TestScript.TC2_AddNewPoi">
+        <methods>
+          <include name="addNewPoiTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.ill.admin.TestScript.TC2_AddNewPoi -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [ILoveLondonSmokeTest] -->

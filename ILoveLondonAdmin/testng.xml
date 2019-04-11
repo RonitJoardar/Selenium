@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ILoveLondonSmokeTest">
+<listeners>
+ 
+ <listener class-name="com.ill.admin.Listener.Listeners"></listener>
+ 
+ <listener class-name="com.ill.admin.Listener.ExtentReporterNG"></listener>
+ 
+ </listeners>
+  <test name="SmokeTest">
+    <classes>
+      <class name="com.ill.admin.TestScript.TC1_Login"/>
+        <class name="com.ill.admin.TestScript.TC2_AddNewPoi"/>
+    </classes>
+  </test> <!-- SmokeTest -->
+</suite> <!-- ILoveLondonSmokeTest -->
